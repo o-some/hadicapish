@@ -238,6 +238,7 @@ if (wizard) {
     state.step = Math.max(1, state.step - 1);
     render();
   });
+  document.addEventListener("vectora:language", render);
   syncOfferButtons();
   render();
 }
