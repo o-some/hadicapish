@@ -1,4 +1,4 @@
-const translations = {
+const deTranslations = {
   "Skip to content": "Zum Inhalt springen",
   "Early access · Online booking and payment are being connected":
     "Frühzugang · Online-Buchung und Zahlung werden gerade angebunden",
@@ -332,12 +332,224 @@ const translations = {
     "Die gesetzliche Widerrufsbelehrung, das Muster-Widerrufsformular und ein etwaiges ausdrückliches Verlangen zum Leistungsbeginn während der Widerrufsfrist müssen für das finale Checkout- und Vertragsmodell durch eine deutsche Rechtsberatung erstellt werden.",
 };
 
+const esTranslations = {
+  "Skip to content": "Saltar al contenido",
+  "Early access · Online booking and payment are being connected": "Acceso anticipado · Estamos conectando la reserva y el pago en línea",
+  "Early access · Booking integrations coming soon": "Acceso anticipado · Las integraciones de reserva estarán disponibles próximamente",
+  "Early access · Booking integrations coming soon · No live payment or calendar connection": "Acceso anticipado · Integraciones de reserva próximamente · Aún sin pago ni calendario en vivo",
+  "Founded by Hadi Capish": "Fundada por Hadi Capish",
+  Programmes: "Programas",
+  "About Hadi": "Sobre Hadi",
+  Pricing: "Precios",
+  Integrity: "Integridad",
+  "Book a free consultation": "Reservar una consulta gratuita",
+  "Book your free 20-minute consultation": "Reservar una consulta gratuita de 20 minutos",
+  "See how tutoring works": "Descubre cómo funciona la tutoría",
+  "IB & IGCSE Mathematics and Physics": "Matemáticas y Física IB e IGCSE",
+  "Master Physics and Mathematics with an experienced IB examiner.": "Domina Física y Matemáticas con un examinador de IB experimentado.",
+  "Personal online tutoring for international students — combining conceptual understanding, examination strategy and individual academic support.": "Tutoría personal en línea para estudiantes internacionales, combinando comprensión conceptual, estrategia de examen y apoyo académico individual.",
+  "10+ years’ experience": "Más de 10 años de experiencia",
+  "IB Physics HL examiner": "Examinador de Física NS del IB",
+  "IA moderator": "Moderador de Evaluación Interna",
+  "When effort is not enough": "Cuando el esfuerzo no basta",
+  "Complex subjects should not feel impossible.": "Las asignaturas complejas no deberían parecer imposibles.",
+  "Understanding a lesson and solving an unfamiliar examination problem are different skills. The right support connects them.": "Comprender una lección y resolver un problema de examen desconocido son habilidades distintas. El apoyo adecuado las conecta.",
+  "I understand the lesson, but struggle to solve the problems.": "Entiendo la lección, pero me cuesta resolver los problemas.",
+  "My results do not reflect how much I study.": "Mis resultados no reflejan cuánto estudio.",
+  "I have gaps from previous school years.": "Tengo lagunas de cursos anteriores.",
+  "I run out of time or lose marks in exams.": "Me falta tiempo o pierdo puntos en los exámenes.",
+  "For parents": "Para familias",
+  "Support you can understand before you commit.": "Un apoyo que puedes comprender antes de comprometerte.",
+  "You should know what your child needs, how the lessons will help and what the next sensible step is. The free consultation creates that clarity first.": "Debes saber qué necesita tu hijo, cómo le ayudarán las clases y cuál es el siguiente paso adecuado. La consulta gratuita aporta primero esa claridad.",
+  "Start flexibly": "Empieza con flexibilidad",
+  "Book one 60-minute lesson without a subscription.": "Reserva una clase de 60 minutos sin suscripción.",
+  "Choose what fits": "Elige lo que encaja",
+  "Continue lesson by lesson, select a package or add monthly continuity.": "Continúa clase a clase, elige un paquete o añade continuidad mensual.",
+  "See the direction": "Define el camino",
+  "Each student receives focused priorities instead of generic tutoring.": "Cada estudiante recibe prioridades claras en lugar de tutoría genérica.",
+  "Keep it personal": "Atención verdaderamente personal",
+  "Hadi works with a maximum of 10 active students at a time.": "Hadi trabaja con un máximo de 10 estudiantes activos a la vez.",
+  "Discuss your child’s needs for free": "Habla gratis sobre las necesidades de tu hijo",
+  "A clearer route forward": "Un camino más claro",
+  "A personal learning path built around your goals.": "Un itinerario personal creado en torno a tus objetivos.",
+  "Initial consultation": "Consulta inicial",
+  "Understand the curriculum, current challenge and goal.": "Comprender el currículo, el reto actual y el objetivo.",
+  "Personal learning plan": "Plan de aprendizaje personal",
+  "Prioritise the concepts and skills that matter now.": "Priorizar los conceptos y habilidades que importan ahora.",
+  "Focused live lessons": "Clases en vivo enfocadas",
+  "Explain, practise and apply with precise feedback.": "Explicar, practicar y aplicar con comentarios precisos.",
+  "Practice and resources": "Práctica y recursos",
+  "Use targeted questions, notes and revision material.": "Utilizar preguntas, apuntes y material de repaso específicos.",
+  "Progress review": "Revisión del progreso",
+  "Measure understanding and adjust the next steps.": "Medir la comprensión y ajustar los próximos pasos.",
+  "Find your next step": "Encuentra tu siguiente paso",
+  "Tutoring programmes": "Programas de tutoría",
+  "Rigorous support, shaped to the student.": "Apoyo riguroso, adaptado al estudiante.",
+  "Conceptual understanding, structured problem-solving, past-paper practice, examination technique and time management.": "Comprensión conceptual, resolución estructurada de problemas, práctica con exámenes anteriores, técnica y gestión del tiempo.",
+  "Mathematical foundations, conceptual clarity, problem-solving and individual examination preparation.": "Bases matemáticas, claridad conceptual, resolución de problemas y preparación individual para exámenes.",
+  "Close knowledge gaps, prepare for tests and build a stable foundation for further study.": "Cerrar lagunas, preparar pruebas y construir una base sólida para estudios posteriores.",
+  "Exam Preparation": "Preparación de exámenes",
+  "International School Support": "Apoyo para colegios internacionales",
+  "Why Hadi": "Por qué Hadi",
+  "Deep subject knowledge. Clear assessment insight.": "Conocimiento profundo. Criterios de evaluación claros.",
+  "Worldwide, from Viernheim": "En todo el mundo, desde Viernheim",
+  "One source time. Your local view.": "Una hora de referencia. Tu hora local.",
+  "Transparent support": "Apoyo transparente",
+  "Start with one lesson. Continue only when it fits.": "Empieza con una clase. Continúa solo si encaja.",
+  "There is no need to commit to a subscription. Begin with a single 60-minute lesson, choose a flexible package or add monthly continuity later.": "No necesitas comprometerte con una suscripción. Empieza con una clase de 60 minutos, elige un paquete flexible o añade continuidad mensual más adelante.",
+  "Ways to start": "Formas de empezar",
+  "Free consultation": "Consulta gratuita",
+  "Clarify the subject, challenge and best starting point.": "Aclara la asignatura, el reto y el mejor punto de partida.",
+  "Single lesson": "Clase individual",
+  "Book 60 minutes without a contract or subscription.": "Reserva 60 minutos sin contrato ni suscripción.",
+  "Continue flexibly": "Continúa con flexibilidad",
+  "Choose individual lessons, a package or monthly support.": "Elige clases individuales, un paquete o apoyo mensual.",
+  "All prices include 19% German VAT. No hidden platform fees.": "Todos los precios incluyen el 19 % de IVA alemán. Sin comisiones ocultas.",
+  "Flexible packages": "Paquetes flexibles",
+  "Monthly support": "Apoyo mensual",
+  "Most Popular": "Más popular",
+  "Flexible start": "Inicio flexible",
+  "Focused progress": "Progreso enfocado",
+  "Best package value": "Mejor valor por paquete",
+  "Exam focus": "Enfoque en exámenes",
+  "Integrity-first guidance": "Orientación con integridad",
+  "Light continuity": "Continuidad ligera",
+  "Weekly rhythm": "Ritmo semanal",
+  "High support": "Apoyo intensivo",
+  "Ideal for a first focused topic, an urgent question or trying the teaching approach without a longer commitment.": "Ideal para un primer tema concreto, una pregunta urgente o para conocer el enfoque sin un compromiso a largo plazo.",
+  "Five lessons for a defined goal, knowledge gap or upcoming assessment — scheduled around the student.": "Cinco clases para un objetivo definido, una laguna de conocimientos o una evaluación próxima, organizadas en torno al estudiante.",
+  "A longer learning runway for rebuilding foundations, developing confidence and preparing consistently.": "Un recorrido más amplio para reconstruir bases, ganar confianza y prepararse de forma constante.",
+  "A structured six-lesson route from diagnostic review to timed practice and final preparation.": "Un itinerario estructurado de seis clases, desde el diagnóstico hasta la práctica cronometrada y la preparación final.",
+  "Ethical subject guidance for planning, analysis and argumentation without completing assessed work.": "Orientación ética sobre planificación, análisis y argumentación sin realizar el trabajo evaluado.",
+  "Two focused lessons per month for students who need steady guidance alongside school.": "Dos clases enfocadas al mes para estudiantes que necesitan orientación constante junto al colegio.",
+  "A weekly learning rhythm for consistent understanding, practice and course correction.": "Un ritmo semanal para comprender, practicar y corregir el rumbo de forma constante.",
+  "Twice-weekly support for demanding phases, major gaps or concentrated examination preparation.": "Apoyo dos veces por semana para fases exigentes, lagunas importantes o preparación intensiva de exámenes.",
+  "Free Consultation": "Consulta gratuita",
+  "Single Lesson": "Clase individual",
+  "Five-Lesson Package": "Paquete de cinco clases",
+  "Ten-Lesson Package": "Paquete de diez clases",
+  "Exam Preparation Package": "Paquete de preparación de exámenes",
+  "Physics IA Mentoring": "Mentoría para la Evaluación Interna de Física",
+  "Personal live online tuition": "Tutoría personal en línea y en vivo",
+  "Focused learning plan": "Plan de aprendizaje enfocado",
+  "Notes and revision support": "Apuntes y apoyo para el repaso",
+  Choose: "Elegir",
+  "Academic integrity": "Integridad académica",
+  "Guidance that strengthens independent thinking.": "Orientación que fortalece el pensamiento independiente.",
+  "Read the Academic Integrity Policy": "Leer la política de integridad académica",
+  "A deliberately personal practice": "Una atención deliberadamente personal",
+  "Check consultation availability": "Consultar disponibilidad",
+  "Free 20-minute consultation": "Consulta gratuita de 20 minutos",
+  "Let’s find the right next step for your learning.": "Encontremos el siguiente paso adecuado para tu aprendizaje.",
+  "Discuss your curriculum, current challenge and academic goals. The consultation is free and does not require payment.": "Comenta tu currículo, reto actual y objetivos académicos. La consulta es gratuita y no requiere pago.",
+  "Book your free consultation": "Reserva tu consulta gratuita",
+  "Independent online Mathematics and Physics tutoring for international students.": "Tutoría independiente en línea de Matemáticas y Física para estudiantes internacionales.",
+  Support: "Apoyo",
+  "Book a consultation": "Reservar una consulta",
+  Legal: "Legal",
+  Imprint: "Aviso legal",
+  Privacy: "Privacidad",
+  Terms: "Condiciones",
+  Cancellation: "Cancelación",
+  "Transparent pricing": "Precios transparentes",
+  "Single lessons, flexible packages and monthly support — always with clear gross prices including 19% German VAT.": "Clases individuales, paquetes flexibles y apoyo mensual, siempre con precios finales claros que incluyen el 19 % de IVA alemán.",
+  "Back to website": "Volver al sitio web",
+  "A flexible starting point": "Un comienzo flexible",
+  "Start with a free conversation or book one focused lesson.": "Empieza con una conversación gratuita o reserva una clase enfocada.",
+  "Parents and students can begin without a subscription. Five short questions help Hadi understand the goal before scheduling.": "Familias y estudiantes pueden empezar sin suscripción. Cinco preguntas breves ayudan a Hadi a comprender el objetivo antes de elegir una cita.",
+  "Choose a starting option": "Elige una opción inicial",
+  "How would you like to start?": "¿Cómo te gustaría empezar?",
+  "Your request": "Tu solicitud",
+  Subject: "Asignatura",
+  Curriculum: "Currículo",
+  "Time zone": "Zona horaria",
+  "Starting point": "Punto de partida",
+  "Not selected": "Sin seleccionar",
+  "Tell us where you are. We’ll map the next step.": "Cuéntanos dónde estás. Trazaremos el siguiente paso.",
+  "Five short questions before the calendar help Hadi understand what support may fit.": "Cinco preguntas breves antes del calendario ayudan a Hadi a entender qué apoyo puede encajar.",
+  "Which subject do you need help with?": "¿Con qué asignatura necesitas ayuda?",
+  Physics: "Física",
+  Mathematics: "Matemáticas",
+  "Which curriculum or year group?": "¿Qué currículo o curso?",
+  "International school — other": "Colegio internacional — otro",
+  "Not sure yet": "Aún no lo sé",
+  "What is the main challenge right now?": "¿Cuál es el principal reto ahora?",
+  "Conceptual understanding": "Comprensión conceptual",
+  "Problem-solving": "Resolución de problemas",
+  "Exam preparation": "Preparación de exámenes",
+  "Physics IA guidance": "Orientación para la Evaluación Interna de Física",
+  "Who is arranging the consultation?": "¿Quién organiza la consulta?",
+  Student: "Estudiante",
+  "Parent or guardian": "Madre, padre o tutor legal",
+  "Parent and student together": "Familia y estudiante juntos",
+  "Your consultation details": "Datos de tu consulta",
+  "Student first name": "Nombre del estudiante",
+  "Parent/guardian name": "Nombre de la madre, padre o tutor",
+  "Required when the student is a minor.": "Obligatorio si el estudiante es menor de edad.",
+  "Email address": "Correo electrónico",
+  Country: "País",
+  "Current level / year group": "Nivel actual / curso",
+  "What would you like to achieve?": "¿Qué te gustaría conseguir?",
+  Back: "Atrás",
+  Continue: "Continuar",
+  "Request consultation": "Solicitar consulta",
+  "Continue to secure checkout": "Continuar al pago seguro",
+  "Please choose one option to continue.": "Selecciona una opción para continuar.",
+  "About Hadi Capish": "Sobre Hadi Capish",
+  "Serious academic guidance, delivered with clarity and calm.": "Orientación académica rigurosa, impartida con claridad y calma.",
+  "International-school experience meets examiner insight.": "Experiencia en colegios internacionales y perspectiva de examinador.",
+  "Independent, personal and limited by design.": "Independiente, personal y deliberadamente limitada.",
+  "A focused route from uncertainty to independent thinking.": "Un camino claro desde la incertidumbre hasta el pensamiento independiente.",
+  "Personal needs assessment and learning plan": "Evaluación personal de necesidades y plan de aprendizaje",
+  "Targeted practice, feedback and revision resources": "Práctica específica, comentarios y recursos de repaso",
+  "Clear progress review and next steps": "Revisión clara del progreso y próximos pasos",
+  "IB Physics Tutor Online": "Tutor de Física del IB en línea",
+  "IB Physics tutoring with examiner insight": "Tutoría de Física del IB con perspectiva de examinador",
+  "Build conceptual understanding, structured problem-solving and confident examination technique with personal IB Physics tutoring.": "Desarrolla comprensión conceptual, resolución estructurada y una técnica de examen segura con tutoría personal de Física del IB.",
+  "Physics is easier to master when concepts, mathematical reasoning and examination choices are taught as one connected system.": "La Física se domina mejor cuando los conceptos, el razonamiento matemático y las decisiones de examen se enseñan como un sistema conectado.",
+  "IB Physics HL Tutor Online": "Tutor de Física NS del IB en línea",
+  "IB Physics HL — understand deeply, answer precisely": "Física NS del IB: comprender a fondo y responder con precisión",
+  "Personal IB Physics HL support with an experienced IB Physics HL examiner.": "Apoyo personal en Física NS del IB con un examinador experimentado.",
+  "Work through complex concepts, structured problems, past-paper technique and time management with calm, personal guidance.": "Trabaja conceptos complejos, problemas estructurados, exámenes anteriores y gestión del tiempo con orientación personal y serena.",
+  "IB Mathematics Tutor Online": "Tutor de Matemáticas del IB en línea",
+  "Clarity in IB Mathematics": "Claridad en Matemáticas del IB",
+  "Personal online IB Mathematics tutoring focused on foundations, conceptual clarity and problem-solving.": "Tutoría personal en línea de Matemáticas del IB centrada en bases, claridad conceptual y resolución de problemas.",
+  "Strengthen foundations, connect concepts and develop a reliable approach to unfamiliar problems and examination practice.": "Refuerza las bases, conecta conceptos y desarrolla un método fiable para problemas nuevos y práctica de examen.",
+  "IGCSE Physics Tutor Online": "Tutor de Física IGCSE en línea",
+  "Build a strong foundation in IGCSE Physics": "Construye una base sólida en Física IGCSE",
+  "Personal IGCSE Physics tutoring for international-school students worldwide.": "Tutoría personal de Física IGCSE para estudiantes de colegios internacionales de todo el mundo.",
+  "Close knowledge gaps, understand the ideas behind formulas and prepare for tests with structured, focused support.": "Cierra lagunas, comprende las ideas detrás de las fórmulas y prepárate con apoyo estructurado.",
+  "IGCSE Mathematics Tutor Online": "Tutor de Matemáticas IGCSE en línea",
+  "Build confidence in IGCSE Mathematics": "Gana seguridad en Matemáticas IGCSE",
+  "Personal IGCSE Mathematics tutoring for international-school students worldwide.": "Tutoría personal de Matemáticas IGCSE para estudiantes de colegios internacionales de todo el mundo.",
+  "Develop secure foundations, clearer problem-solving and a practical plan for tests, examinations and the transition to further study.": "Desarrolla bases seguras, una resolución más clara y un plan práctico para pruebas, exámenes y estudios posteriores.",
+  "IB Physics Exam Preparation": "Preparación del examen de Física del IB",
+  "Prepare for IB Physics with purpose": "Prepárate para Física del IB con un objetivo claro",
+  "Focused IB Physics exam preparation with diagnostic review, past-paper practice and examination strategy.": "Preparación enfocada para Física del IB con diagnóstico, exámenes anteriores y estrategia.",
+  "Identify the highest-value gaps, practise under realistic conditions and turn feedback into a clear plan for the next paper.": "Identifica las lagunas prioritarias, practica en condiciones reales y convierte los comentarios en un plan claro.",
+  "Physics IA guidance that protects academic integrity": "Orientación para la Evaluación Interna de Física que protege la integridad académica",
+  "Ethical Physics Internal Assessment mentoring focused on research questions, experimental design, analysis and academic integrity.": "Mentoría ética centrada en preguntas de investigación, diseño experimental, análisis e integridad académica.",
+  "Online Tutoring for International-School Students": "Tutoría en línea para estudiantes de colegios internacionales",
+  "International support, made personal": "Apoyo internacional, atención personal",
+  "Personal Mathematics and Physics tutoring across time zones for international-school students and families.": "Tutoría personal de Matemáticas y Física para estudiantes y familias de colegios internacionales en distintas zonas horarias.",
+  "Based in Viernheim and teaching online worldwide, Hadi helps international students work with more clarity, confidence and structure.": "Desde Viernheim y en línea para todo el mundo, Hadi ayuda a estudiantes internacionales a trabajar con más claridad, confianza y estructura.",
+  "Hadi works with no more than 10 active students. Lessons are available from 17:00 Germany time and shown in your local time zone.": "Hadi trabaja con un máximo de 10 estudiantes activos. Las clases están disponibles desde las 17:00, hora alemana, y se muestran en tu zona horaria local.",
+  "Contact": "Contacto",
+  "Independent tutoring": "Tutoría independiente",
+  "Academic Integrity Policy": "Política de integridad académica",
+  "Cancellation Policy": "Política de cancelación",
+  "Privacy Policy": "Política de privacidad",
+  "Terms and Conditions": "Términos y condiciones",
+  "Withdrawal Information": "Información sobre desistimiento"
+};
+
+const dictionaries = { de: deTranslations, es: esTranslations };
+
 const originals = new WeakMap();
 let currentLanguage = "en";
 
 export const getLanguage = () => currentLanguage;
-export const t = (value) =>
-  currentLanguage === "de" ? translations[value] || value : value;
+export const t = (value) => dictionaries[currentLanguage]?.[value] || value;
 
 const translateTextNode = (node) => {
   if (!originals.has(node)) originals.set(node, node.nodeValue);
@@ -345,8 +557,7 @@ const translateTextNode = (node) => {
   const trimmed = source.trim();
   if (!trimmed) return;
   const normalized = trimmed.replace(/\s+/g, " ");
-  const replacement =
-    currentLanguage === "de" ? translations[normalized] : normalized;
+  const replacement = dictionaries[currentLanguage]?.[normalized] || normalized;
   if (!replacement) return;
   const leading = source.match(/^\s*/)?.[0] || "";
   const trailing = source.match(/\s*$/)?.[0] || "";
@@ -354,7 +565,7 @@ const translateTextNode = (node) => {
 };
 
 export const translateDocument = (language) => {
-  currentLanguage = language === "de" ? "de" : "en";
+  currentLanguage = ["de", "es"].includes(language) ? language : "en";
   document.documentElement.lang = currentLanguage;
   document.querySelectorAll("body *").forEach((element) => {
     if (["SCRIPT", "STYLE"].includes(element.tagName)) return;
@@ -369,7 +580,7 @@ export const translateDocument = (language) => {
       const source = element.dataset[originalKey];
       element.setAttribute(
         attribute,
-        currentLanguage === "de" ? translations[source] || source : source,
+        dictionaries[currentLanguage]?.[source] || source,
       );
     });
   });
@@ -387,15 +598,21 @@ export const translateDocument = (language) => {
 
 export const initLanguageSwitcher = () => {
   const saved = localStorage.getItem("vectora-language");
-  currentLanguage =
-    saved || (navigator.language.toLowerCase().startsWith("de") ? "de" : "en");
+  const browserLanguage = navigator.language.toLowerCase();
+  currentLanguage = ["en", "de", "es"].includes(saved)
+    ? saved
+    : browserLanguage.startsWith("de")
+      ? "de"
+      : browserLanguage.startsWith("es")
+        ? "es"
+        : "en";
   document.querySelectorAll(".nav").forEach((nav) => {
     if (nav.querySelector(".language-switcher")) return;
     const switcher = document.createElement("div");
     switcher.className = "language-switcher";
     switcher.setAttribute("aria-label", "Language");
     switcher.innerHTML =
-      '<button type="button" data-language="en">EN</button><button type="button" data-language="de">DE</button>';
+      '<button type="button" data-language="en">EN</button><button type="button" data-language="de">DE</button><button type="button" data-language="es">ES</button>';
     const menuToggle = nav.querySelector(".menu-toggle");
     const menu = nav.querySelector(".nav-links");
     nav.insertBefore(switcher, menuToggle || menu || nav.lastElementChild);

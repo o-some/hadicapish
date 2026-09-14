@@ -139,11 +139,14 @@ export const siteConfig = Object.freeze({
 });
 
 export const formatMoney = (value, locale = "en") =>
-  new Intl.NumberFormat(locale === "de" ? "de-DE" : "en-GB", {
+  new Intl.NumberFormat(
+    locale === "de" ? "de-DE" : locale === "es" ? "es-ES" : "en-GB",
+    {
     style: "currency",
     currency: siteConfig.pricing.currency,
     maximumFractionDigits: 0,
-  }).format(value);
+    },
+  ).format(value);
 
 export const getOffer = (id) =>
   siteConfig.pricing.offers.find((offer) => offer.id === id);

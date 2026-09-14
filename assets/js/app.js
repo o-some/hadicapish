@@ -8,6 +8,12 @@ import {
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+const localeCopy = {
+  en: { month: "/month", minutes: "minutes", perLesson: "per lesson", chooseError: "Please choose one option to continue." },
+  de: { month: "/Monat", minutes: "Minuten", perLesson: "pro Stunde", chooseError: "Bitte wählen Sie eine Option aus." },
+  es: { month: "/mes", minutes: "minutos", perLesson: "por clase", chooseError: "Selecciona una opción para continuar." },
+};
+const copy = () => localeCopy[getLanguage()] || localeCopy.en;
 
 const menu = $("#menu");
 const menuToggle = $("#menu-toggle");
@@ -48,10 +54,8 @@ const prepareReveals = (root = document) => {
       node.dataset.reveal =
         index % 3 === 0 ? "left" : index % 3 === 1 ? "up" : "right";
     }
-    node.style.setProperty(
-      "--reveal-delay",
-      `${Math.min(index % 4, 3) * 70}ms`,
-    );
+    const delayStep = matchMedia("(max-width: 680px)").matches ? 45 : 70;
+    node.style.setProperty("--reveal-delay", `${Math.min(index % 3, 2) * delayStep}ms`);
   });
 };
 
@@ -117,8 +121,8 @@ const renderPrices = (type) => {
       bookingUrl.searchParams.set("offer", offer.id);
       return `<article class="price-card ${offer.popular ? "popular" : ""}">
       ${offer.popular ? `<span class="badge">${t("Most Popular")}</span>` : `<span class="offer-label">${t(offer.label)}</span>`}
-      <h3>${t(offer.name)}</h3><div class="price">${formatMoney(offer.price, getLanguage())}${type === "subscription" ? `<small>${getLanguage() === "de" ? "/Monat" : "/month"}</small>` : ""}</div>
-      <p class="lesson-rate">${offer.lessons} × ${offer.minutes} ${getLanguage() === "de" ? "Minuten" : "minutes"} · ${formatMoney(perLesson, getLanguage())} ${getLanguage() === "de" ? "pro Stunde" : "per lesson"}</p>
+      <h3>${t(offer.name)}</h3><div class="price">${formatMoney(offer.price, getLanguage())}${type === "subscription" ? `<small>${copy().month}</small>` : ""}</div>
+      <p class="lesson-rate">${offer.lessons} × ${offer.minutes} ${copy().minutes} · ${formatMoney(perLesson, getLanguage())} ${copy().perLesson}</p>
       <p class="offer-summary">${t(offer.summary)}</p>
       <ul><li>${t("Personal live online tuition")}</li><li>${t("Focused learning plan")}</li><li>${t("Notes and revision support")}</li></ul>
       <a class="button ${offer.popular ? "" : "dark"}" href="${bookingUrl.href}">${t("Choose")} ${t(offer.name)}</a>
@@ -219,10 +223,7 @@ if (wizard) {
       4: "role",
     }[state.step];
     if (required && !state[required]) {
-      $("#wizard-error").textContent =
-        getLanguage() === "de"
-          ? "Bitte wählen Sie eine Option aus."
-          : "Please choose one option to continue.";
+      $("#wizard-error").textContent = copy().chooseError;
       return;
     }
     $("#wizard-error").textContent = "";
