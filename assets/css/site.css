@@ -59,3 +59,38 @@
 .credential{background:transparent;border-right:1px solid rgba(52,183,216,.16)}
 .credential:last-child{border-right:0}
 @media(max-width:1000px){.credentials{border-bottom:0}.credential{border-right:0;border-bottom:1px solid rgba(52,183,216,.16)}}
+
+/* CAF mobile rhythm: one spacing system, stable reveal endpoints */
+@media(max-width:680px){
+  .section{padding:72px 0}
+  .section-head{margin-bottom:36px}
+  .section-head p{margin-bottom:0}
+  .grid{gap:18px}
+  .split{gap:32px}
+  .parent-split{gap:34px}
+  .parent-lede{margin-bottom:0}
+  .parent-benefits{gap:16px;margin:24px 0 28px}
+  .parent-benefits article{padding:20px;transform-origin:center}
+  .parent-benefits strong{margin-bottom:6px}
+  .parent-section .button{width:100%;min-height:52px;padding-inline:16px;text-align:center}
+  .booking-path{gap:16px;margin-bottom:28px}
+  .programme-card{padding:26px 24px}
+  .method-line{margin:28px 0}
+  .method-line li{padding:16px 0}
+  .reveal.is-visible,
+  .reveal.is-visible[data-reveal="left"],
+  .reveal.is-visible[data-reveal="right"]{transform:translate3d(0,0,0) scale(1);will-change:auto}
+}
+
+@media(max-width:420px){
+  .container{width:calc(100% - 30px)}
+  .parent-benefits{gap:16px}
+  .parent-benefits article{border-radius:18px}
+  .parent-split{gap:30px}
+  .media-card{border-radius:26px}
+}
+
+@media(hover:none){
+  .problem-card:hover,.programme-card:hover,.price-card:hover,.price-card.popular:hover{transform:none;box-shadow:initial}
+  .button:hover{transform:none}
+}
