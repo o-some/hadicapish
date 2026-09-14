@@ -156,8 +156,10 @@ const translations = {
   "Check consultation availability": "Verfügbarkeit für Erstgespräch prüfen",
   "Free 20-minute consultation": "Kostenloses 20-Minuten-Erstgespräch",
   "A flexible starting point": "Ein flexibler Einstieg",
-  "Start with a free conversation or book one focused lesson.": "Mit einem kostenlosen Gespräch starten oder eine fokussierte Einzelstunde buchen.",
-  "Parents and students can begin without a subscription. Five short questions help Hadi understand the goal before scheduling.": "Eltern und Schüler können ohne Abonnement starten. Fünf kurze Fragen helfen Hadi, das Ziel vor der Terminplanung zu verstehen.",
+  "Start with a free conversation or book one focused lesson.":
+    "Mit einem kostenlosen Gespräch starten oder eine fokussierte Einzelstunde buchen.",
+  "Parents and students can begin without a subscription. Five short questions help Hadi understand the goal before scheduling.":
+    "Eltern und Schüler können ohne Abonnement starten. Fünf kurze Fragen helfen Hadi, das Ziel vor der Terminplanung zu verstehen.",
   "Choose a starting option": "Einstiegsoption wählen",
   "How would you like to start?": "Wie möchten Sie starten?",
   "Single lesson · €100": "Einzelstunde · 100 €",
@@ -293,6 +295,41 @@ const translations = {
     "Von Viernheim aus unterstützt Hadi internationale Schülerinnen und Schüler weltweit dabei, klarer, sicherer und strukturierter zu lernen.",
   "Hadi works with no more than 10 active students. Lessons are available from 17:00 Germany time and shown in your local time zone.":
     "Hadi betreut höchstens 10 aktive Schülerinnen und Schüler. Termine sind ab 17:00 Uhr deutscher Zeit verfügbar und werden in Ihrer lokalen Zeitzone angezeigt.",
+  "Early-access legal information · Final provider details to follow":
+    "Rechtliche Informationen im Frühzugang · Finale Anbieterangaben folgen",
+  "Academic Integrity Policy": "Richtlinie zur akademischen Integrität",
+  "Support that preserves student ownership":
+    "Unterstützung, die die Eigenleistung des Schülers wahrt",
+  "Production blocker:": "Offener Punkt vor Produktionsstart:",
+  "Legal and contact details are incomplete. This draft is intentionally excluded from public release.":
+    "Rechts- und Kontaktdaten sind noch unvollständig. Dieser Entwurf ist bewusst nicht für den finalen Produktionsstart freigegeben.",
+  "Hadi provides guidance, feedback and subject support. He may help students refine a feasible topic, understand physics, plan an experiment, analyse data and improve structure or argumentation within permitted boundaries. He does not write, rewrite or complete assessed work, fabricate data, conduct an experiment on a student’s behalf or guarantee a grade.":
+    "Hadi bietet Anleitung, Feedback und fachliche Unterstützung. Er kann Schüler im zulässigen Rahmen dabei unterstützen, ein geeignetes Thema einzugrenzen, Physik zu verstehen, ein Experiment zu planen, Daten zu analysieren und Struktur oder Argumentation zu verbessern. Er schreibt, überarbeitet oder vervollständigt keine bewerteten Arbeiten, erfindet keine Daten, führt keine Experimente im Namen eines Schülers durch und garantiert keine Note.",
+  Contact: "Kontakt",
+  "Vectora Academic · Founded by Hadi Capish · Viernheim, Germany. Full provider and contact information will be added before paid bookings are accepted.":
+    "Vectora Academic · Gegründet von Hadi Capish · Viernheim, Deutschland. Vollständige Anbieter- und Kontaktdaten werden ergänzt, bevor kostenpflichtige Buchungen angenommen werden.",
+  "Independent tutoring": "Unabhängige Förderung",
+  "Hadi Capish provides independent tutoring services and is not affiliated with or endorsed by the International Baccalaureate Organization. International Baccalaureate and IB are trademarks of their respective owner. Exact wording requires legal review.":
+    "Hadi Capish bietet unabhängige Förderleistungen an und ist weder mit der International Baccalaureate Organization verbunden noch von ihr unterstützt. International Baccalaureate und IB sind Marken ihrer jeweiligen Rechteinhaber. Die genaue Formulierung erfordert eine rechtliche Prüfung.",
+  "Cancellation Policy": "Stornierungsbedingungen",
+  "Rescheduling and cancellation": "Umbuchung und Stornierung",
+  "Draft commercial rule: lessons may be rescheduled up to 24 hours before the scheduled start. Subscription cancellation, package expiry, unused credits and the optional monthly carry-over require final approval and legal review.":
+    "Vorläufige Geschäftsregel: Stunden können bis 24 Stunden vor dem geplanten Beginn umgebucht werden. Kündigung von Abonnements, Ablauf von Paketen, nicht genutzte Guthaben und eine mögliche monatliche Übertragung benötigen noch finale Freigabe und rechtliche Prüfung.",
+  "Provider information": "Anbieterinformationen",
+  "The final legal entity, complete service address, authorised representative, contact details, tax details and register information have not yet been supplied. This page must be completed and legally reviewed before public launch.":
+    "Die finale Rechtseinheit, vollständige ladungsfähige Anschrift, vertretungsberechtigte Person, Kontaktdaten, Steuerangaben und Registerinformationen wurden noch nicht bereitgestellt. Diese Seite muss vor dem öffentlichen Produktionsstart vervollständigt und rechtlich geprüft werden.",
+  "Privacy Policy": "Datenschutzerklärung",
+  "How personal data is handled": "Umgang mit personenbezogenen Daten",
+  "This preview does not submit form data, set analytics cookies, process payments or connect to a live calendar. The production policy must name the controller, hosting, calendar, video, payment and email providers; legal bases; recipients; international transfers; retention periods; data-subject rights; complaint authority; and the special handling of minors’ data.":
+    "Diese Vorschau übermittelt keine Formulardaten, setzt keine Analyse-Cookies, verarbeitet keine Zahlungen und ist nicht mit einem Live-Kalender verbunden. Die finale Datenschutzerklärung muss Verantwortlichen, Hosting-, Kalender-, Video-, Zahlungs- und E-Mail-Anbieter, Rechtsgrundlagen, Empfänger, internationale Übermittlungen, Speicherfristen, Betroffenenrechte, Beschwerdestelle und den besonderen Umgang mit Daten Minderjähriger benennen.",
+  "Terms and Conditions": "Allgemeine Geschäftsbedingungen",
+  "Terms for tutoring services": "Bedingungen für Förderleistungen",
+  "Final terms must define contract formation, parent/guardian contracting for minors, lesson and package scope, payment, subscriptions, rescheduling, non-attendance, expiry and transfer of lesson credits, technical requirements, liability, termination and dispute information. This draft is not legal advice.":
+    "Die finalen Bedingungen müssen Vertragsschluss, Vertragsabschluss durch Eltern oder Erziehungsberechtigte für Minderjährige, Umfang von Stunden und Paketen, Zahlung, Abonnements, Umbuchung, Nichterscheinen, Ablauf und Übertragbarkeit von Stundenguthaben, technische Voraussetzungen, Haftung, Kündigung und Streitbeilegung regeln. Dieser Entwurf ist keine Rechtsberatung.",
+  "Withdrawal Information": "Widerrufsbelehrung",
+  "Consumer withdrawal information": "Widerrufsinformationen für Verbraucher",
+  "The statutory withdrawal information, model withdrawal form, and any express request for performance to begin during the withdrawal period must be prepared by German counsel for the final checkout and contract model.":
+    "Die gesetzliche Widerrufsbelehrung, das Muster-Widerrufsformular und ein etwaiges ausdrückliches Verlangen zum Leistungsbeginn während der Widerrufsfrist müssen für das finale Checkout- und Vertragsmodell durch eine deutsche Rechtsberatung erstellt werden.",
 };
 
 const originals = new WeakMap();
