@@ -1,0 +1,16 @@
+{
+  "name": "vectora-academic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build:preview": "vite build",
+    "check:release": "node scripts/check-release.mjs",
+    "build": "npm run check:release && vite build",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Production canonical host must replace the preview placeholder before release. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.invalid/</loc></url>
+  <url><loc>https://example.invalid/ib-physics-tutor/</loc></url>
+  <url><loc>https://example.invalid/ib-physics-hl-tutor/</loc></url>
+  <url><loc>https://example.invalid/ib-mathematics-tutor/</loc></url>
+  <url><loc>https://example.invalid/igcse-physics-tutor/</loc></url>
+  <url><loc>https://example.invalid/igcse-mathematics-tutor/</loc></url>
+  <url><loc>https://example.invalid/ib-physics-exam-preparation/</loc></url>
+  <url><loc>https://example.invalid/physics-ia-mentoring/</loc></url>
+  <url><loc>https://example.invalid/online-tutoring-international-schools/</loc></url>
+</urlset>

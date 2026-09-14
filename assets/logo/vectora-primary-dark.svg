@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Vectora Academic</title><desc id="desc">Geometric V vector and orbit symbol with wordmark</desc>
+  <rect width="1200" height="320" fill="#10233F"/>
+  <g transform="translate(48 44)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 30 116 222 207 30" stroke="#F7F4EC" stroke-width="22"/>
+    <path d="m207 30-7 52-40-34" stroke="#34B7D8" stroke-width="13"/>
+    <path d="M42 142c41-54 122-77 179-38 33 22 39 61 13 89" stroke="#34B7D8" stroke-width="5" opacity=".75"/>
+    <circle cx="232" cy="188" r="9" fill="#34B7D8" stroke="none"/>
+  </g>
+  <g fill="#F7F4EC" font-family="Arial, Helvetica, sans-serif">
+    <text x="336" y="143" font-size="74" font-weight="700" letter-spacing="1">VECTORA ACADEMIC</text>
+    <text x="341" y="201" font-size="25" letter-spacing="5" opacity=".8">INTERNATIONAL MATHEMATICS &amp; PHYSICS TUTORING</text>
+    <text x="341" y="248" font-size="20" letter-spacing="2" fill="#34B7D8">FOUNDED BY HADI CAPISH</text>
+  </g>
+</svg>

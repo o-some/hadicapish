@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="180" viewBox="0 0 740 180" role="img" aria-label="Vectora Academic">
+  <g transform="translate(18 18)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 14 69 137 126 14" stroke="#10233F" stroke-width="15"/>
+    <path d="m126 14-5 34-26-22" stroke="#34B7D8" stroke-width="9"/>
+    <path d="M24 85c26-37 79-50 116-23 21 15 24 40 7 58" stroke="#34B7D8" stroke-width="3.5"/>
+    <circle cx="145" cy="117" r="6" fill="#34B7D8" stroke="none"/>
+  </g>
+  <text x="194" y="92" fill="#10233F" font-family="Arial, Helvetica, sans-serif" font-size="51" font-weight="700">VECTORA ACADEMIC</text>
+  <text x="197" y="127" fill="#26313D" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">FOUNDED BY HADI CAPISH</text>
+</svg>
