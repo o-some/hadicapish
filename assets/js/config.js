@@ -6,10 +6,10 @@ export const siteConfig = Object.freeze({
     service: "International Mathematics & Physics Tutoring"
   },
   contact: {
-    domain: "[DOMAIN WIRD NACHGEREICHT]",
-    email: "hello@[domain].com",
-    phone: "+49 6204 000000",
-    address: "[VOLLSTÄNDIGE ANSCHRIFT WIRD NACHGEREICHT]",
+    domain: "https://o-some.github.io/hadicapish/",
+    email: "",
+    phone: "",
+    address: "",
     city: "Viernheim, Germany"
   },
   booking: {
@@ -37,7 +37,8 @@ export const siteConfig = Object.freeze({
     ]
   },
   release: {
-    previewMode: true,
+    previewMode: false,
+    launchMode: "early-access",
     portraitsApproved: false,
     qualificationsApproved: false,
     legalApproved: false,
