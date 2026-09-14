@@ -58,7 +58,7 @@ const renderPrices = type => {
     </article>`;
   }).join("");
 };
-renderPrices("subscription");
+renderPrices("flexible");
 $$('[data-pricing-type]').forEach(button => button.addEventListener("click", () => {
   $$('[data-pricing-type]').forEach(item => item.setAttribute("aria-pressed", "false"));
   button.setAttribute("aria-pressed", "true"); renderPrices(button.dataset.pricingType);
