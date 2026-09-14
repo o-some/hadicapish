@@ -1,10 +1,336 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Book a Free Consultation | Vectora Academic</title><meta name="description" content="Request a free 20-minute consultation with Hadi Capish."><link rel="icon" href="../assets/logo/vectora-mark.svg"><link rel="stylesheet" href="../assets/css/site.css"><script type="module" src="../assets/js/app.js"></script></head><body><a class="skip-link" href="#main">Skip to content</a><div class="preview-bar">Early access · Booking integrations coming soon · No live payment or calendar connection</div><header class="site-header"><nav class="nav container"><a class="brand" href="../"><img src="../assets/logo/vectora-mark.svg" alt=""><span>Vectora Academic<small>Founded by Hadi Capish</small></span></a><a class="button secondary" href="../">Back to website</a></nav></header>
-<main id="main"><section class="landing-hero"><div class="container"><span class="eyebrow">Free 20-minute consultation</span><h1>Tell us where you are. We’ll map the next step.</h1><p>Five short questions before the calendar help Hadi understand what support may fit.</p></div></section><section class="section"><div class="container booking-shell" id="booking-wizard"><div class="booking-panel" id="booking-flow"><div class="progress" aria-label="Booking progress"><span></span><span></span><span></span><span></span><span></span></div><p class="notice">Times will be shown in <strong data-local-timezone></strong> and checked against availability in <strong data-source-timezone></strong>. No unconfirmed slots are displayed in this preview.</p>
-<section class="wizard-step" data-step="1"><h2>Which subject do you need help with?</h2><div class="choices"><button class="choice" type="button" data-choice="subject" data-value="Physics" aria-pressed="false"><strong>Physics</strong><br>Concepts, problem-solving, examinations or IA guidance</button><button class="choice" type="button" data-choice="subject" data-value="Mathematics" aria-pressed="false"><strong>Mathematics</strong><br>Foundations, problem-solving and examination preparation</button></div></section>
-<section class="wizard-step" data-step="2" hidden><h2>Which curriculum or year group?</h2><div class="choices"><button class="choice" type="button" data-choice="curriculum" data-value="IB Diploma" aria-pressed="false">IB Diploma</button><button class="choice" type="button" data-choice="curriculum" data-value="IGCSE" aria-pressed="false">IGCSE</button><button class="choice" type="button" data-choice="curriculum" data-value="International school — other" aria-pressed="false">International school — other</button><button class="choice" type="button" data-choice="curriculum" data-value="Not sure" aria-pressed="false">Not sure yet</button></div></section>
-<section class="wizard-step" data-step="3" hidden><h2>What is the main challenge right now?</h2><div class="choices"><button class="choice" type="button" data-choice="challenge" data-value="Conceptual understanding" aria-pressed="false">Conceptual understanding</button><button class="choice" type="button" data-choice="challenge" data-value="Problem-solving" aria-pressed="false">Problem-solving</button><button class="choice" type="button" data-choice="challenge" data-value="Exam preparation" aria-pressed="false">Exam preparation</button><button class="choice" type="button" data-choice="challenge" data-value="Physics IA guidance" aria-pressed="false">Physics IA guidance</button></div></section>
-<section class="wizard-step" data-step="4" hidden><h2>Who is arranging the consultation?</h2><div class="choices"><button class="choice" type="button" data-choice="role" data-value="Student" aria-pressed="false">Student</button><button class="choice" type="button" data-choice="role" data-value="Parent or guardian" aria-pressed="false">Parent or guardian</button><button class="choice" type="button" data-choice="role" data-value="Parent and student" aria-pressed="false">Parent and student together</button></div></section>
-<section class="wizard-step" data-step="5" hidden><h2>Your consultation details</h2><form id="booking-form"><div class="field-row"><div><label for="student-name">Student first name</label><input id="student-name" name="studentName" autocomplete="given-name" required></div><div><label for="guardian">Parent/guardian name</label><input id="guardian" name="guardian" autocomplete="name"><small>Required when the student is a minor.</small></div></div><label for="email">Email address</label><input id="email" type="email" name="email" autocomplete="email" required><div class="field-row"><div><label for="country">Country</label><input id="country" name="country" autocomplete="country-name" required></div><div><label for="year-group">Current level / year group</label><input id="year-group" name="yearGroup" required></div></div><label for="goal">What would you like to achieve?</label><textarea id="goal" name="goal" required></textarea><label class="checkbox"><input type="checkbox" required><span>I have read the <a href="../legal/privacy.html"><u>Privacy Policy</u></a> and consent to the processing of these details for my consultation request.</span></label><label class="checkbox"><input type="checkbox" required><span>I understand that assessed work will not be written or completed for a student.</span></label></form></section><p id="wizard-error" role="alert" style="color:#9b1c1c;font-weight:700"></p><div class="wizard-actions"><button class="button secondary" id="wizard-back" type="button">Back</button><button class="button dark" id="wizard-next" type="button">Continue</button></div></div>
-<section class="booking-panel" id="waitlist-flow" hidden><span class="badge">Capacity reached</span><h2>Join the priority waitlist</h2><p>Personal support is limited to <span data-capacity>10</span> active students. Leave your details to hear when a suitable place becomes available.</p><form><label for="waitlist-email">Email</label><input type="email" id="waitlist-email" required><label class="checkbox"><input type="checkbox" required><span>I consent to being contacted about tutoring availability.</span></label><button class="button dark" type="button">Join waitlist — preview</button></form></section>
-<aside class="summary"><span class="eyebrow">Your request</span><dl><div><dt>Subject</dt><dd id="summary-subject">Not selected</dd></div><div><dt>Curriculum</dt><dd id="summary-curriculum">Not selected</dd></div><div><dt>Time zone</dt><dd id="summary-timezone">—</dd></div><div><dt>Starting point</dt><dd id="summary-offer">Free Consultation · €0</dd></div></dl><p class="notice">The free consultation requires no payment. Paid lessons use secure Stripe or PayPal checkout after programme fit and availability are confirmed.</p></aside></div></section></main>
-<dialog id="integration-dialog" style="max-width:620px;border:0;border-radius:24px;padding:34px;box-shadow:0 30px 90px rgba(0,0,0,.25)"><h2>Preview flow complete</h2><p>The form, validation, qualification flow and time-zone detection work. Live calendar inventory, atomic capacity checks, Google Meet creation, email reminders and payment redirects are intentionally disabled until the production accounts and availability are connected.</p><form method="dialog"><button class="button dark">Close</button></form></dialog></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Book a Free Consultation | Vectora Academic</title>
+    <meta
+      name="description"
+      content="Request a free 20-minute consultation with Hadi Capish."
+    />
+    <link rel="icon" href="../assets/logo/vectora-mark.svg" />
+    <link rel="stylesheet" href="../assets/css/site.css" />
+    <script type="module" src="../assets/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="preview-bar">
+      Early access · Booking integrations coming soon · No live payment or
+      calendar connection
+    </div>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="../"
+          ><img src="../assets/logo/vectora-mark.svg" alt="" /><span
+            >Vectora Academic<small>Founded by Hadi Capish</small></span
+          ></a
+        ><a class="button secondary" href="../">Back to website</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="landing-hero">
+        <div class="container">
+          <span class="eyebrow">A flexible starting point</span>
+          <h1>Start with a free conversation or book one focused lesson.</h1>
+          <p>
+            Parents and students can begin without a subscription. Five short
+            questions help Hadi understand the goal before scheduling.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container booking-shell" id="booking-wizard">
+          <div class="booking-panel" id="booking-flow">
+            <div class="booking-offer-select" aria-label="Choose a starting option">
+              <span>How would you like to start?</span>
+              <div>
+                <button type="button" data-offer-choice="consultation">Free consultation</button>
+                <button type="button" data-offer-choice="single">Single lesson · €100</button>
+                <button type="button" data-offer-choice="five">Five-lesson package · €475</button>
+              </div>
+            </div>
+            <div class="progress" aria-label="Booking progress">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <p class="notice">
+              Times will be shown in <strong data-local-timezone></strong> and
+              checked against availability in
+              <strong data-source-timezone></strong>. No unconfirmed slots are
+              displayed in this preview.
+            </p>
+            <section class="wizard-step" data-step="1">
+              <h2>Which subject do you need help with?</h2>
+              <div class="choices">
+                <button
+                  class="choice"
+                  type="button"
+                  data-choice="subject"
+                  data-value="Physics"
+                  aria-pressed="false"
+                >
+                  <strong>Physics</strong><br />Concepts, problem-solving,
+                  examinations or IA guidance</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="subject"
+                  data-value="Mathematics"
+                  aria-pressed="false"
+                >
+                  <strong>Mathematics</strong><br />Foundations, problem-solving
+                  and examination preparation
+                </button>
+              </div>
+            </section>
+            <section class="wizard-step" data-step="2" hidden>
+              <h2>Which curriculum or year group?</h2>
+              <div class="choices">
+                <button
+                  class="choice"
+                  type="button"
+                  data-choice="curriculum"
+                  data-value="IB Diploma"
+                  aria-pressed="false"
+                >
+                  IB Diploma</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="curriculum"
+                  data-value="IGCSE"
+                  aria-pressed="false"
+                >
+                  IGCSE</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="curriculum"
+                  data-value="International school — other"
+                  aria-pressed="false"
+                >
+                  International school — other</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="curriculum"
+                  data-value="Not sure"
+                  aria-pressed="false"
+                >
+                  Not sure yet
+                </button>
+              </div>
+            </section>
+            <section class="wizard-step" data-step="3" hidden>
+              <h2>What is the main challenge right now?</h2>
+              <div class="choices">
+                <button
+                  class="choice"
+                  type="button"
+                  data-choice="challenge"
+                  data-value="Conceptual understanding"
+                  aria-pressed="false"
+                >
+                  Conceptual understanding</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="challenge"
+                  data-value="Problem-solving"
+                  aria-pressed="false"
+                >
+                  Problem-solving</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="challenge"
+                  data-value="Exam preparation"
+                  aria-pressed="false"
+                >
+                  Exam preparation</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="challenge"
+                  data-value="Physics IA guidance"
+                  aria-pressed="false"
+                >
+                  Physics IA guidance
+                </button>
+              </div>
+            </section>
+            <section class="wizard-step" data-step="4" hidden>
+              <h2>Who is arranging the consultation?</h2>
+              <div class="choices">
+                <button
+                  class="choice"
+                  type="button"
+                  data-choice="role"
+                  data-value="Student"
+                  aria-pressed="false"
+                >
+                  Student</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="role"
+                  data-value="Parent or guardian"
+                  aria-pressed="false"
+                >
+                  Parent or guardian</button
+                ><button
+                  class="choice"
+                  type="button"
+                  data-choice="role"
+                  data-value="Parent and student"
+                  aria-pressed="false"
+                >
+                  Parent and student together
+                </button>
+              </div>
+            </section>
+            <section class="wizard-step" data-step="5" hidden>
+              <h2>Your consultation details</h2>
+              <form id="booking-form">
+                <div class="field-row">
+                  <div>
+                    <label for="student-name">Student first name</label
+                    ><input
+                      id="student-name"
+                      name="studentName"
+                      autocomplete="given-name"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="guardian">Parent/guardian name</label
+                    ><input
+                      id="guardian"
+                      name="guardian"
+                      autocomplete="name"
+                    /><small>Required when the student is a minor.</small>
+                  </div>
+                </div>
+                <label for="email">Email address</label
+                ><input
+                  id="email"
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+                <div class="field-row">
+                  <div>
+                    <label for="country">Country</label
+                    ><input
+                      id="country"
+                      name="country"
+                      autocomplete="country-name"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="year-group">Current level / year group</label
+                    ><input id="year-group" name="yearGroup" required />
+                  </div>
+                </div>
+                <label for="goal">What would you like to achieve?</label
+                ><textarea id="goal" name="goal" required></textarea
+                ><label class="checkbox"
+                  ><input type="checkbox" required /><span
+                    >I have read the
+                    <a href="../legal/privacy.html"><u>Privacy Policy</u></a>
+                    and consent to the processing of these details for my
+                    consultation request.</span
+                  ></label
+                ><label class="checkbox"
+                  ><input type="checkbox" required /><span
+                    >I understand that assessed work will not be written or
+                    completed for a student.</span
+                  ></label
+                >
+              </form>
+            </section>
+            <p
+              id="wizard-error"
+              role="alert"
+              style="color: #9b1c1c; font-weight: 700"
+            ></p>
+            <div class="wizard-actions">
+              <button class="button secondary" id="wizard-back" type="button">
+                Back</button
+              ><button class="button dark" id="wizard-next" type="button">
+                Continue
+              </button>
+            </div>
+          </div>
+          <section class="booking-panel" id="waitlist-flow" hidden>
+            <span class="badge">Capacity reached</span>
+            <h2>Join the priority waitlist</h2>
+            <p>
+              Personal support is limited to
+              <span data-capacity>10</span> active students. Leave your details
+              to hear when a suitable place becomes available.
+            </p>
+            <form>
+              <label for="waitlist-email">Email</label
+              ><input type="email" id="waitlist-email" required /><label
+                class="checkbox"
+                ><input type="checkbox" required /><span
+                  >I consent to being contacted about tutoring
+                  availability.</span
+                ></label
+              ><button class="button dark" type="button">
+                Join waitlist — preview
+              </button>
+            </form>
+          </section>
+          <aside class="summary">
+            <span class="eyebrow">Your request</span>
+            <dl>
+              <div>
+                <dt>Subject</dt>
+                <dd id="summary-subject">Not selected</dd>
+              </div>
+              <div>
+                <dt>Curriculum</dt>
+                <dd id="summary-curriculum">Not selected</dd>
+              </div>
+              <div>
+                <dt>Time zone</dt>
+                <dd id="summary-timezone">—</dd>
+              </div>
+              <div>
+                <dt>Starting point</dt>
+                <dd id="summary-offer">Free Consultation · €0</dd>
+              </div>
+            </dl>
+            <p class="notice">
+              The free consultation requires no payment. Paid lessons use secure
+              Stripe or PayPal checkout after programme fit and availability are
+              confirmed.
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <dialog
+      id="integration-dialog"
+      style="
+        max-width: 620px;
+        border: 0;
+        border-radius: 24px;
+        padding: 34px;
+        box-shadow: 0 30px 90px rgba(0, 0, 0, 0.25);
+      "
+    >
+      <h2>Preview flow complete</h2>
+      <p>
+        The form, validation, qualification flow and time-zone detection work.
+        Live calendar inventory, atomic capacity checks, Google Meet creation,
+        email reminders and payment redirects are intentionally disabled until
+        the production accounts and availability are connected.
+      </p>
+      <form method="dialog"><button class="button dark">Close</button></form>
+    </dialog>
+  </body>
+</html>
