@@ -91,6 +91,9 @@ const deTranslations = {
   "Worldwide, from Viernheim": "Weltweit, aus Viernheim",
   "One source time. Your local view.":
     "Eine Ausgangszeit. Ihre lokale Anzeige.",
+  ". The booking flow detects": ". Die Buchung erkennt",
+  Only: "Nur",
+  "active students at a time.": "aktive Schülerinnen und Schüler gleichzeitig.",
   "Transparent support": "Transparente Förderung",
   "Start with one lesson. Continue only when it fits.":
     "Mit einer Stunde starten. Nur weitermachen, wenn es passt.",
@@ -410,6 +413,7 @@ const esTranslations = {
   "One source time. Your local view.": "Una hora de referencia. Tu hora local.",
   "Availability begins from 17:00 in": "La disponibilidad comienza a las 17:00 en",
   "The booking flow detects": "El sistema de reservas detecta",
+  ". The booking flow detects": ". El sistema de reservas detecta",
   "and presents both time references before confirmation.": "y muestra ambas referencias horarias antes de confirmar.",
   "Transparent support": "Apoyo transparente",
   "Start with one lesson. Continue only when it fits.": "Empieza con una clase. Continúa solo si encaja.",
@@ -456,6 +460,8 @@ const esTranslations = {
   "Hadi provides guidance, feedback and subject support in accordance with academic-integrity requirements. He does not write, rewrite or complete assessed work on behalf of students.": "Hadi ofrece orientación, comentarios y apoyo en la materia conforme a los requisitos de integridad académica. No escribe, reescribe ni completa trabajos evaluados en nombre del estudiante.",
   "Read the Academic Integrity Policy": "Leer la política de integridad académica",
   "A deliberately personal practice": "Una atención deliberadamente personal",
+  Only: "Solo",
+  "active students at a time.": "estudiantes activos a la vez.",
   "Only 10 active students at a time.": "Solo 10 estudiantes activos a la vez.",
   "Limited capacity protects the quality of preparation, feedback and personal attention. When capacity is full, consultation booking is replaced by a priority waitlist.": "La capacidad limitada protege la calidad de la preparación, los comentarios y la atención personal. Cuando se completa, la reserva se sustituye por una lista de espera prioritaria.",
   "Check consultation availability": "Consultar disponibilidad",
